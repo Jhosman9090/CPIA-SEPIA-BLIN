@@ -12,5 +12,4 @@ Todo uso de este repositorio y sus derivados requiere **autorización expresa de
 - TT – Teoría de Teorías  
 - TBC – Teoría de la Brújula Cuántica  
 - CPIA Framework y derivados
-
-Cualquier intento de uso, publicación o comercialización sin permiso **constituye infracción de propiedad intelectual**.
+- SEPIA-CPIA-BLINier intento de uso, publicación o comercialización sin permiso **constituye infracción de propiedad intelectual**.
