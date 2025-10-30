@@ -5,7 +5,7 @@ Actualización de licencia a CPIA avanzada – protección# Licencia CPIA – Au
 Todo el contenido de este repositorio, incluyendo pero no limitado a:  
 - Código fuente  
 - Frameworks y algoritmos  
-- Teorías (TPPI, TB, TT, TBC)  
+- Teorías (TPPI, TB, TT, TBC SEPIA-CPIA-BLIN)  
 - Documentación, gráficos, diagramas y cualquier material derivado  
 
 es **propiedad intelectual exclusiva del autor**.  
