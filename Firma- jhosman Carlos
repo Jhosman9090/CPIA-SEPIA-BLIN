@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "document_type": "teoria_certificada",
+  "generated_at": "2025-11-03T00:00:00-06:00",
+  "id": "teoria_certificada-1334b2e6bfc7d41a505c33b140c2c58218a07bb28ababf66408b27b26baa1ed4",
+  "teoria_certificada": {
+    "huella_teoria_original": "1334b2e6bfc7d41a505c33b140c2c58218a07bb28ababf66408b27b26baa1ed4",
+    "huella_certificacion_final": "1334b2e6bfc7d41a505c33b140c2c58218a07bb28ababf66408b27b26baa1ed4B5690EEEBB9521945caa2ee54dbb1c52592e907a6f32e5dbebe6afae3a5b69bb3ac4f1397fbb0e6b734b965f70e374b1723390414a4c86efad21cc0a1a2b2d63c4158d2d",
+    "hash_verificacion": "f1647c6fb0d0c2f7b73a6857930dcd5b77985e056ad8f3790f0d6b6d2a961990",
+    "autor": "Jhosmar Carlos Martínez Morales",
+    "fecha_certificacion": "2025-10-29",
+    "propiedad_intelectual": {
+      "titular": "Jhosmar Carlos Martínez Morales",
+      "fecha_creacion_codigo_original": "2025-09-28",
+      "fecha_integracion_codigo_johnson": "2025-10-01",
+      "plataforma_validacion": "GitHub"
+    },
+    "firma_digital_pdf": {
+      "nombre_archivo": "Certificacion_Firma_JhosmarCarlosMartinezMorales.pdf",
+      "hash_sha256_pdf": "4355d08f1a71410b5c145ae84760b71b8b9725bed77a1d8ef98298fef9b6b9eb",
+      "fecha_firma_pdf": "2025-11-03"
+    }
+  },
+  "proof": {
+    "method": "sha256_concatenation",
+    "description": "La huella_certificacion_final fue construida concatenando la huella_teoria_original con una cadena de sellado/firma extendida y puede usarse como prueba compuesta.",
+    "signature_value": "1334b2e6bfc7d41a505c33b140c2c58218a07bb28ababf66408b27b26baa1ed4B5690EEEBB9521945caa2ee54dbb1c52592e907a6f32e5dbebe6afae3a5b69bb3ac4f1397fbb0e6b734b965f70e374b1723390414a4c86efad21cc0a1a2b2d63c4158d2d",
+    "verifier_hash": "f1647c6fb0d0c2f7b73a6857930dcd5b77985e056ad8f3790f0d6b6d2a961990",
+    "algorithm": "SHA-256",
+    "notes": [
+      "Para verificar: calcule SHA-256 del archivo original y compare con huella_teoria_original.",
+      "Verifique el hash SHA-256 del PDF firmado y compárelo con firma_digital_pdf.hash_sha256_pdf.",
+      "Confirme que la huella_certificacion_final contiene la huella_teoria_original como prefijo y que la verificación (hash_verificacion) corresponde al proceso de validación interno empleado por el firmante."
+    ]
+  },
+  "ipfs_instructions": {
+    "suggested_filename": "teoria_certificada_Jhosmar.json",
+    "content_type": "application/json",
+    "example_commands": [
+      "ipfs add --cid-version=1 teoria_certificada_Jhosmar.json",
+      "# o usando nft.storage / web3.storage: subir el archivo y guardar el CID resultante"
+    ],
+    "recommended_metadata": {
+      "name": "Teoría Certificada - Jhosmar Carlos Martínez Morales",
+      "description": "Certificación y metadatos para verificación pública.",
+      "creator": "Jhosmar Carlos Martínez Morales",
+      "created": "2025-11-03"
+    }
+  },
+  "github_instructions": {
+    "suggested_repo_structure": [
+      "/docs/teoria_certificada_Jhosmar.json",
+      "/docs/Certificacion_Firma_JhosmarCarlosMartinezMorales.pdf",
+      "README.md (instrucciones de verificación)"
+    ],
+    "notes": "Subir el JSON y el PDF al repositorio público en GitHub hará la certificación accesible y verificable. Añadir en README.md los pasos de verificación y el CID de IPFS si lo subes allí."
+  }
+}
